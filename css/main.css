@@ -33,3 +33,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
+.header-icons__icons span {
+  color: #fff;
+}
