@@ -9,13 +9,18 @@ html {
   padding: 0;
 }
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 a {
   text-decoration: none;
   color: black;
 }
+/******************************************************/
+/*                                                    */
+/*      Estilos de la pagina principal del blog       */
+/*                                                    */
+/******************************************************/
 /***** Estilos del header *****/
 /***** Estilos de la seccion de iconos del header *****/
 header {
@@ -118,4 +123,54 @@ header {
   font-family: 'Roboto Slab', serif;
   font-size: 1.8rem;
   font-weight: bold;
+}
+/******************************************************/
+/*                                                    */
+/*         Estilos de la pagina de los blogs          */
+/*                                                    */
+/******************************************************/
+.blogs-main {
+  display: grid;
+  font-size: 1.4rem;
+}
+.blogs-news-container {
+  background-color: #e6e9ed;
+  padding: 0px 50px 40px;
+}
+.blogs-news-container h3 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+.blogs-news-container__news {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 2fr;
+}
+.blogs-news-container__img {
+  grid-column: 1;
+}
+.blogs-news-container__img img {
+  width: 85%;
+}
+.blogs-news-container__info-container {
+  grid-column: 2;
+}
+.blogs-news-container__info-container h2 {
+  padding: 20px 0;
+}
+.blogs-news-container__info-container p {
+  margin-bottom: 35px;
+}
+.blogs-posts-container {
+  padding: 40px 50px;
+}
+.blogs-posts-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.blogs-button {
+  border: 1px solid #47cfac;
+  padding: 10px 15px;
+  font-size: 1.2rem;
 }
