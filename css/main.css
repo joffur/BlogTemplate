@@ -10,11 +10,15 @@ html {
 }
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 a {
   text-decoration: none;
   color: black;
+}
+.grid-container {
+  max-width: 980px;
+  margin: auto;
 }
 /******************************************************/
 /*                                                    */
@@ -129,6 +133,7 @@ header {
 /*         Estilos de la pagina de los blogs          */
 /*                                                    */
 /******************************************************/
+/***** Estilos del la seccion del blog principal *****/
 .blogs-main {
   display: grid;
   font-size: 1.4rem;
@@ -169,8 +174,41 @@ header {
   padding-bottom: 20px;
   text-align: center;
 }
+/***** Estilos de los botones del la pagina *****/
 .blogs-button {
   border: 1px solid #47cfac;
   padding: 10px 15px;
   font-size: 1.2rem;
+}
+/***** Estilos de la seccion de ultimas noticias *****/
+.blog-posts-container__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 10px;
+  margin-bottom: 50px;
+}
+.blog-posts-container__post {
+  display: inline-block;
+}
+.blog-posts-container__post img {
+  width: 100%;
+  padding: 20px 0;
+}
+.blog-posts-container__post p {
+  margin-bottom: 35px;
+}
+/***** Estilos del footer de la pagina Blogs *****/
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22272d;
+  font-size: 1.4rem;
+  border-top: 35px solid #47cfac
+}
+footer p {
+  color: #fff;
 }
