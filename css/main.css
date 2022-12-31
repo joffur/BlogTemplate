@@ -1,4 +1,8 @@
 /***** Reset de algunos estilos *****/
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto Mono', monospace;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,6 +40,10 @@ header {
 }
 .header-icons__icons span {
   color: #fff;
+  border-radius: 50%;
+}
+.header-icons__icons span:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /***** Estilos de la seccion nav del header *****/
 .header-nav {
@@ -50,6 +58,9 @@ header {
   width: 220px;
 }
 .header-nav__profile-link {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.4rem;
+  font-weight: 300;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -58,4 +69,53 @@ header {
 .header-nav__profile-link a {
   color: black;
   text-decoration: underline;
+  padding: 10px;
+}
+.header-nav__profile-link a:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+/***** Estilos de la seccion principal *****/
+.home-main {
+  height: calc(100vh - 140px);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  place-content: center;
+  background-image: url("/assets/img/Cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-main-container {
+  display: grid;
+  grid-column: 2;
+  height: 350px;
+}
+.home-main-container__title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3.6rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  color: #fff;
+  text-align: center;
+}
+.home-main-container__button {
+  width: 110px;
+  height: 50px;
+  background-color: #47cfac;
+  place-self: center;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.home-main-container__button:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.home-main-container__button a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
