@@ -217,3 +217,35 @@ footer {
 footer p {
   color: #fff;
 }
+/******************************************************/
+/*                                                    */
+/*         Estilos de la pagina de los blog           */
+/*                                                    */
+/******************************************************/
+/***** Estilos del la seccion del blog principal *****/
+.blog-img-container {
+  padding: 0 50px 40px;
+}
+.blog-img-container__img {
+  width: 100%;
+}
+.blog-main-container {
+  padding: 0 50px 40px;
+}
+.blog-main-container h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid #cdd2da;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.blog-main-container__content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+.blog-main-container__content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: justify;
+}
