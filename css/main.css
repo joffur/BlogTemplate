@@ -216,6 +216,7 @@ footer {
 }
 footer p {
   color: #fff;
+  text-align: center;
 }
 /******************************************************/
 /*                                                    */
@@ -253,6 +254,7 @@ footer p {
 .contact-main-container {
   height: 200px;
   background-color: #e6e9ed;
+  padding: 20px 0;
 }
 .contact-main-grid {
   display: grid;
@@ -296,6 +298,7 @@ footer p {
 .profile-container__profile {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0 50px;
 }
 .profile-container__img {
   width: 100%;
@@ -334,6 +337,7 @@ footer p {
   row-gap: 50px;
   column-gap: 30px;
   margin-bottom: 50px;
+  padding: 0 50px 40px;
 }
 .projects-container__post :nth-child(1) {
   font-size: 1.6rem;
