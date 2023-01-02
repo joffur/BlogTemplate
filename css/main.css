@@ -69,7 +69,7 @@ header {
 .header-nav__profile-link {
   font-family: 'Roboto Slab', serif;
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 500;
   display: flex;
   justify-content: flex-end;
   align-items: center;
