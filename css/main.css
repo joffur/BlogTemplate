@@ -249,3 +249,36 @@ footer p {
   margin-bottom: 20px;
   text-align: justify;
 }
+/***** Estilos de la seccion de contacto de la pagina de blog *****/
+.contact-main-container {
+  height: 200px;
+  background-color: #e6e9ed;
+}
+.contact-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+}
+.contact-main-container__img {
+  width: 100px;
+  height: 100px;
+}
+.contact-main-container__left, .contact-main-container__right {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 90%;
+  place-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.2rem;
+}
+.contact-main-container__title {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.contact-main-container__text {
+  margin-top: 10px;
+}
