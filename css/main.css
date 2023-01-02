@@ -282,3 +282,65 @@ footer p {
 .contact-main-container__text {
   margin-top: 10px;
 }
+/******************************************************/
+/*                                                    */
+/*          Estilos de la pagina de perfil            */
+/*                                                    */
+/******************************************************/
+/***** Estilos del la seccion de perfil principal *****/
+.profile-container {
+  width: 100%;
+  background-color: #e6e9ed;
+  padding: 60px 0;
+}
+.profile-container__profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-container__img {
+  width: 100%;
+}
+.profile-container__img img {
+  width: 85%;
+  border-radius: 15px;
+}
+.profile-container__profile-container {
+  align-self: center;
+}
+.profile-container__profile-container h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.profile-container__profile-container p {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+/***** Estilos de la seccion de proyectos en el perfil *****/
+.projects-container {
+  display: grid;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 40px 0;
+}
+.projects-container h3 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.projects-container__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 30px;
+  margin-bottom: 50px;
+}
+.projects-container__post :nth-child(1) {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects-container__post :last-child {
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 25px;
+}
