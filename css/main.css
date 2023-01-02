@@ -336,6 +336,7 @@ footer p {
   margin-bottom: 50px;
 }
 .projects-container__post :nth-child(1) {
+  font-size: 1.6rem;
   font-weight: bold;
   margin-top: 20px;
 }
